@@ -15,7 +15,7 @@
   }
   &:focus {
     background-color: darken($primary, 10%);
-    color: white;
+    color: red;
   }
   &:active {
     background-color: darken($primary, 15%) !important;

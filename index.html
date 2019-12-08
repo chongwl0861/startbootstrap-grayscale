@@ -2,17 +2,19 @@
 <html lang="en">
 
 <head>
-<!-- COMMON TAGS -->
-<meta charset="utf-8">
-<!-- Search Engine -->
-<meta name="image" content="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/iphone11-select-2019-family?wid=882&hei=1058&fmt=jpeg&qlt=80&op_usm=0.5,0.5&.v=1567022175704">
-<!-- Schema.org for Google -->
-<meta itemprop="image" content="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/iphone11-select-2019-family?wid=882&hei=1058&fmt=jpeg&qlt=80&op_usm=0.5,0.5&.v=1567022175704">
-<!-- Open Graph general (Facebook, Pinterest & Google+) -->
-<meta name="og:image" content="https://chongwl0861.github.io/startbootstrap-grayscale/img/iphone11.jpeg">
-<meta name="og:url" content="https://chongwl0861.github.io/startbootstrap-grayscale/">
-<meta name="og:site_name" content="Demo site">
-<meta name="og:type" content="website">
+  <!-- COMMON TAGS -->
+  <meta charset="utf-8">
+  <!-- Search Engine -->
+  <meta name="image"
+    content="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/iphone11-select-2019-family?wid=882&hei=1058&fmt=jpeg&qlt=80&op_usm=0.5,0.5&.v=1567022175704">
+  <!-- Schema.org for Google -->
+  <meta itemprop="image"
+    content="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/iphone11-select-2019-family?wid=882&hei=1058&fmt=jpeg&qlt=80&op_usm=0.5,0.5&.v=1567022175704">
+  <!-- Open Graph general (Facebook, Pinterest & Google+) -->
+  <meta name="og:image" content="https://chongwl0861.github.io/startbootstrap-grayscale/img/iphone11.jpeg">
+  <meta name="og:url" content="https://chongwl0861.github.io/startbootstrap-grayscale/">
+  <meta name="og:site_name" content="Demo site">
+  <meta name="og:type" content="website">
 
 
 
@@ -74,8 +76,8 @@
     <div class="container d-flex h-100 align-items-center">
       <div class="mx-auto text-center">
         <h1 class="mx-auto my-0 text-uppercase">Hannah</h1>
-        <h2 class="text-white-50 mx-auto mt-2 mb-5">is poor.</h2>
-        <a href="#about" class="btn btn-primary js-scroll-trigger">Get her an Iphone 11</a>
+        <h2 class="text-white-50 mx-auto mt-2 mb-5">is poor af.</h2>
+        <a href="#about" class="btn btn-primary js-scroll-trigger">Get her an Iphone 11 pro</a>
       </div>
     </div>
   </header>
@@ -153,7 +155,7 @@
       <!-- Featured Project Row -->
       <div class="row align-items-center no-gutters mb-4 mb-lg-5">
         <div class="col-xl-8 col-lg-7">
-          <img class="img-fluid mb-3 mb-lg-0" src="img/bg-masthead.jpg" alt="">
+          <img class="img-fluid mb-3 mb-lg-0" src="img/bg/grad1.jpg" alt="">
         </div>
         <div class="col-xl-4 col-lg-5">
           <div class="featured-text text-center text-lg-left">
@@ -167,15 +169,17 @@
       <!-- Project One Row -->
       <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
         <div class="col-lg-6">
-          <img class="img-fluid" src="img/demo-image-01.jpg" alt="">
+            <div class="slider project-slider">
+                <div class="image-bg" style="background-image: url(img/hkd.jpg);"></div>
+                <div class="image-bg" style="background-image: url(img/hkd2.jpg);"></div>
+              </div>
         </div>
         <div class="col-lg-6">
           <div class="bg-black text-center h-100 project">
             <div class="d-flex h-100">
               <div class="project-text w-100 my-auto text-center text-lg-left">
-                <h4 class="text-white">Misty</h4>
-                <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else,
-                  along with a description.</p>
+                <h4 class="text-white">HKD$14,299</h4>
+                <p class="mb-0 text-white-50">It is welcome to pay in Hong Kong dollar.</p>
                 <hr class="d-none d-lg-block mb-0 ml-0">
               </div>
             </div>
@@ -186,15 +190,17 @@
       <!-- Project Two Row -->
       <div class="row justify-content-center no-gutters">
         <div class="col-lg-6">
-          <img class="img-fluid" src="img/demo-image-02.jpg" alt="">
+            <div class="slider project-slider">
+                <div class="image-bg" style="background-image: url(img/usd.jpg);"></div>
+                <div class="image-bg" style="background-image: url(img/usd2.jpg);"></div>
+              </div>
         </div>
         <div class="col-lg-6 order-lg-first">
           <div class="bg-black text-center h-100 project">
             <div class="d-flex h-100">
               <div class="project-text w-100 my-auto text-center text-lg-right">
-                <h4 class="text-white">Mountains</h4>
-                <p class="mb-0 text-white-50">Another example of a project with its respective description. These
-                  sections work well responsively as well, try this theme on a small screen!</p>
+                <h4 class="text-white">USD$1,499</h4>
+                <p class="mb-0 text-white-50">It is welcome to pay in US dollar.</p>
                 <hr class="d-none d-lg-block mb-0 mr-0">
               </div>
             </div>
@@ -202,7 +208,75 @@
         </div>
       </div>
 
+      <style>
+        .project-slider {
+          height: 100%;
+          min-height: 400px;
+        }
+
+        .project-slider .slick-list {
+          height: 100%;
+        }
+
+        .project-slider .slick-track,
+        .project-slider .slick-slide,
+        .project-slider .slick-slide>div {
+          height: 100%;
+        }
+
+        .project-slider .image-bg {
+          height: 100%;
+          background-position: center center;
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
+      </style>
+
+      <!-- Project Three Row -->
+      <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+        <div class="col-lg-6">
+          <div class="slider project-slider">
+            <div class="image-bg" style="background-image: url(img/yen.jpg);"></div>
+            <div class="image-bg" style="background-image: url(img/yen2.jpg);"></div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="bg-black text-center h-100 project">
+            <div class="d-flex h-100">
+              <div class="project-text w-100 my-auto text-center text-lg-left">
+                <h4 class="text-white">￥157,800</h4>
+                <p class="mb-0 text-white-50">It is welcome to pay in yen.</p>
+                <hr class="d-none d-lg-block mb-0 ml-0">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project Four Row -->
+      <div class="row justify-content-center no-gutters">
+        <div class="col-lg-6">
+          <div class="slider project-slider">
+            <div class="image-bg" style="background-image: url(img/won.jpg);"></div>
+            <div class="image-bg" style="background-image: url(img/won2.jpg);"></div>
+          </div>
+        </div>
+        <div class="col-lg-6 order-lg-first">
+          <div class="bg-black text-center h-100 project">
+            <div class="d-flex h-100">
+              <div class="project-text w-100 my-auto text-center text-lg-right">
+                <h4 class="text-white">₩2,030,000</h4>
+                <p class="mb-0 text-white-50">It is welcome to pay in won.</p>
+                <hr class="d-none d-lg-block mb-0 mr-0">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+
+
+
   </section>
 
   <!-- Signup Section -->
@@ -221,22 +295,17 @@
           </form>
 
           <style>
-          #google-form{
-            width: 100%;
-          }
-          
+            #google-form {
+              width: 100%;
+              margin-top: 50px;
+            }
           </style>
-          
-          <iframe 
-          id="google-form"
-          src="https://docs.google.com/forms/d/e/1FAIpQLSeiHs-Koge9YgU6PMbd8yrWZ2Apr-K5KynYpmzRIcs20YF95Q/viewform?embedded=true" 
-          width="640" 
-          height="662" 
-          frameborder="0" 
-          marginheight="0" 
-          marginwidth="0">載入中…</iframe>
-        
-        
+
+          <iframe id="google-form"
+            src="https://docs.google.com/forms/d/e/1FAIpQLSeiHs-Koge9YgU6PMbd8yrWZ2Apr-K5KynYpmzRIcs20YF95Q/viewform?embedded=true"
+            width="640" height="662" frameborder="0" marginheight="0" marginwidth="0">載入中…</iframe>
+
+
         </div>
       </div>
     </div>
