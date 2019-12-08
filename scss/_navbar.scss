@@ -11,8 +11,7 @@
     }
   }
   .navbar-brand {
-    color: $black;
-    font-weight: 700;
+    background-image: url(../img/item/hannah.png);
     padding: .9rem 0;
   }
   .navbar-nav {
@@ -53,10 +52,10 @@
     &.navbar-shrink {
       background-color: $white;
       .navbar-brand {
-        color: $black;
+        color: transparent;
       }
       .nav-link {
-        color: $black;
+        color: transparent;
         padding: 1.5rem 1.5rem 1.25rem;
         border-bottom: 0.25rem solid transparent;
         &:hover {
