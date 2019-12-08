@@ -4,7 +4,7 @@
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background:transparent, url('../img/bg-masthead.jpg');
+  background:transparent, url('../img/bg/bg2.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -15,8 +15,6 @@
     line-height: 2.5rem;
     letter-spacing: 0.8rem;
     background: transparent;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
   }
   h2 {
     max-width: 20rem;
