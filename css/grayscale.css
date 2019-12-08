@@ -6,14 +6,13 @@
 
 #mainNav {
   min-height: 56px;
-  background-color: #fff;
-  background-image:url(../img/bg/bg2.jpg);
+  background-color:transparent;
 }
 
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #64a19d
+  color: yellow;
 }
 
 #mainNav .navbar-toggler:focus {
@@ -72,15 +71,15 @@
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #64a19d;
+    color: #26059e;
   }
   #mainNav.navbar-shrink .nav-link:active {
-    color: #467370;
+    color: #26059e;
   }
   #mainNav.navbar-shrink .nav-link.active {
-    color: #64a19d;
+    color: #26059e;
     outline: none;
-    border-bottom: 0.25rem solid #64a19d;
+    border-bottom: 0.25rem solid #26059e;
   }
 }
 
