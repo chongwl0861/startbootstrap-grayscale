@@ -90,7 +90,7 @@
   position: relative;
   width: 100%;
   height: auto;
-  min-height: 35rem;
+  min-height: auto;
   padding: 15rem 0;
   
   background-position: center;
@@ -185,7 +185,7 @@
 }
 
 .projects-section .project-text {
-  padding: 3rem;
+  padding: 200rem;
   font-size: 90%;
 }
 
@@ -271,7 +271,7 @@ a {
 
 a:focus, a:hover {
   text-decoration: none;
-  color: #3c6360;
+  color:white;
 }
 
 .bg-black {
@@ -283,7 +283,7 @@ a:focus, a:hover {
 }
 
 .text-primary {
-  color: #64a19d !important;
+  color:white !important;
 }
 
 footer {

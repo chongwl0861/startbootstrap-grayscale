@@ -18,15 +18,15 @@
  .masthead h1{font-family: 'Timmana', sans-serif;font-size:2.5rem;line-height:2.5rem;letter-spacing:.8rem;background:transparent(rgba(255,255,255,.9),rgba(255,255,255,0));-webkit-text-fill-color:transparent;}
  .masthead h2{max-width:20rem;font-size:1rem}@media (min-width:768px){.masthead h1{font-size:4rem;line-height:4rem}}@media (min-width:992px){.masthead{height:100vh;padding:0}.masthead h1{font-size:6.5rem;line-height:6.5rem;letter-spacing:.8rem}.masthead h2{max-width:30rem;font-size:1.25rem}}.btn{box-shadow:0 .1875rem .1875rem 0 rgba(0,0,0,.1)!important;padding:1.25rem 2rem;font-family: 'Timmana', sans-serif;font-size:80%;text-transform:uppercase;letter-spacing:.15rem;border:0}
  
- .btn-primary{background-color:#64a19d}.btn-primary:hover{background-color:#4f837f}
+ .btn-primary{background-color:blue}.btn-primary:hover{background-color:blue}
  .btn-primary:focus{background-color:#4f837f;color:#fff}.btn-primary:active{background-color:#467370!important}
  
- .about-section{padding-top:10rem;background:linear-gradient(to bottom,#161616 0,rgba(22,22,22,.9) 75%,rgba(22,22,22,.8) 100%)}.about-section p{margin-bottom:5rem}
+ .about-section{background-image: url(../img/bg/redbg.jpg)}.about-section p{margin-bottom:20rem}
  
- .projects-section{padding:10rem 0}.projects-section .featured-text{padding:2rem}@media (min-width:992px){.projects-section .featured-text{padding:0 0 0 2rem;border-left:.5rem solid #64a19d}}
+ .projects-section{background-image: url(../img/bg/redbg.jpg);padding:10rem 0}.projects-section .featured-text{padding:2rem}@media (min-width:992px){.projects-section .featured-text{padding:0 0 0 2rem;border-left:.5rem solid #64a19d}}
  .projects-section .project-text{padding:3rem;font-size:90%}@media (min-width:992px){.projects-section .project-text{padding:5rem}.projects-section .project-text hr{border-color:#64a19d;border-width:.25rem;width:30%}}
  
- .signup-section{padding:10rem 0;background:linear-gradient(to bottom,rgba(22,22,22,.1) 0,rgba(22,22,22,.5) 75%,#161616 100%),url(../img/bg/grad1.jpg);background-position:center;background-repeat:no-repeat;background-attachment:scroll;background-size:cover}.signup-section .form-inline input{box-shadow:0 .1875rem .1875rem 0 rgba(0,0,0,.1)!important;padding:1.25rem 2rem;height:auto;font-family:'Varela Round';font-size:80%;text-transform:uppercase;letter-spacing:.15rem;border:0}
+ .signup-section{padding:10rem 0;background:linear-gradient(to bottom,rgba(22,22,22,.1) 0,rgba(22,22,22,.5) 75%,#161616 100%),url(../img/bg/grad1.jpg);background-position:center;background-repeat:no-repeat;background-attachment:scroll;background-size:cover}.signup-section .form-inline input{box-shadow:0 .1875rem .1875rem 0 rgba(0,0,0,.1)!important;padding:1.25rem 2rem;height:auto;font-family: 'Timmana', sans-serif;font-size:80%;text-transform:uppercase;letter-spacing:.15rem;border:0}
  
  .contact-section{padding:5rem 0 0}.contact-section .card{border:0;border-bottom:.25rem solid #64a19d}
  .contact-section .card h4{font-size:.8rem;font-family: 'Timmana', sans-serif;text-transform:uppercase;letter-spacing:.15rem}.contact-section .card hr{border-color:#64a19d;border-width:.25rem;width:3rem}.contact-section .social{margin-top:5rem}
