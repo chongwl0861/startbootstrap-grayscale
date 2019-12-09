@@ -12,8 +12,8 @@
  #mainNav .nav-link:hover{color:rgba(255, 255, 0, 0.767)}#mainNav .nav-link:active{color:#fff}
  #mainNav.navbar-shrink{background-color:transparent}#mainNav.navbar-shrink .navbar-brand{color:#161616}
  #mainNav.navbar-shrink .nav-link{color:transparent;padding:1.5rem 1.5rem 1.25rem;border-bottom:.25rem solid transparent}
- #mainNav.navbar-shrink .nav-link:hover{color:#64a19d}#mainNav.navbar-shrink .nav-link:active{color:#467370}
- #mainNav.navbar-shrink .nav-link.active{color:#64a19d;outline:0;border-bottom:.25rem solid #64a19d}}.masthead{position:relative;width:100%;height:auto;min-height:35rem;padding:15rem 0;background:url(../img/bg/bg2.jpg);background-position:top;background-repeat:no-repeat;background-attachment:scroll;background-size:cover}
+ #mainNav.navbar-shrink .nav-link:hover{color:red}#mainNav.navbar-shrink .nav-link:active{color:#467370}
+ #mainNav.navbar-shrink .nav-link.active{color:red;outline:0;border-bottom:.25rem solid white}}.masthead{position:relative;width:100%;height:auto;min-height:35rem;padding:15rem 0;background:url(../img/bg/bg2.jpg);background-position:top;background-repeat:no-repeat;background-attachment:scroll;background-size:cover}
  
  .masthead h1{font-family: 'Timmana', sans-serif;font-size:2.5rem;line-height:2.5rem;letter-spacing:.8rem;background:transparent(rgba(255,255,255,.9),rgba(255,255,255,0));-webkit-text-fill-color:transparent;}
  .masthead h2{max-width:20rem;font-size:1rem}@media (min-width:768px){.masthead h1{font-size:4rem;line-height:4rem}}@media (min-width:992px){.masthead{height:100vh;padding:0}.masthead h1{font-size:6.5rem;line-height:6.5rem;letter-spacing:.8rem}.masthead h2{max-width:30rem;font-size:1.25rem}}.btn{box-shadow:0 .1875rem .1875rem 0 rgba(0,0,0,.1)!important;padding:1.25rem 2rem;font-family: 'Timmana', sans-serif;font-size:80%;text-transform:uppercase;letter-spacing:.15rem;border:0}
